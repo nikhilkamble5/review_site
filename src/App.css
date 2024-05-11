@@ -1,0 +1,64 @@
+/* index.css */
+.app {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.give-review-section,
+.reviews-section {
+  width: 45%;
+}
+
+.review-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.form-buttons button {
+  margin-right: 10px;
+}
+
+.reviews-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Add CSS for filled and unfilled stars */
+.star {
+  color: black; /* Default color for unfilled stars */
+  cursor: pointer;
+}
+
+.star.filled {
+  color: golden; /* Color for filled stars */
+}
